@@ -1,7 +1,5 @@
 from django.shortcuts import render
 import requests
-from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import get_object_or_404, redirect, render
 import re
 import random
 from django.http import JsonResponse

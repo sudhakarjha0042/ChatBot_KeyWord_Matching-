@@ -170,10 +170,11 @@ header{
     width: 6px;
   }
   .msger-chat::-webkit-scrollbar-track {
-    background: #a80d0d;
+    background: white;
   }
   .msger-chat::-webkit-scrollbar-thumb {
-    background: #bdbdbd;
+    background: black;
+    border-radius: 5px;
   }
   .msg {
     display: flex;
