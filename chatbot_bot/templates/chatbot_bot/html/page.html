@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" >
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <link rel="stylesheet"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" >
+    <link rel="stylesheet" href="{% static 'chatbot_bot/css/page.css' %}">
+    <script type="text/javascript" src="{% static 'chatbot_bot/js/main.js' %}"></script>
+    <title>Responsive Navbar</title>
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+</head>
+<body>
+    <header style="height: 550px">
+        <div class="navbar">
+            <div class="logo"><a href="index1.html">Web Dev Creative</a> </div>
+            <ul class="links">
+                <li><a href="index1.html">Home</a> </li>
+                <li><a href="about">About</a> </li>
+                <li><a href="services">Services</a> </li>
+                <li><a href="contact">Contact</a> </li>
+            </ul>
+        </div>
+
+        <section class="msger">
+            <header class="msger-header">
+              <div class="msger-header-title">
+                <i class="fas fa-comment-alt"></i> HealthCare ChatBot
+              </div>
+            </header>
+          
+            <main class="msger-chat">
+              <div class="msg left-msg">
+
+                <div class="msg-img"
+                style="background-image: url(https://www.techopedia.com/wp-content/uploads/2023/03/6e13a6b3-28b6-454a-bef3-92d3d5529007.jpeg)">
+                </div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">BOT</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    Hi, welcome to SimpleChat! Go ahead and send me a message. 😄
+                  </div>
+                 
+                </div>
+              </div>
+          
+              <div class="msg right-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://w7.pngwing.com/pngs/527/663/png-transparent-logo-person-user-person-icon-rectangle-photography-computer-wallpaper-thumbnail.png)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">You</div>
+                    
+                    <div class="msg-info-time">
+                      
+                    </div>
+                  </div>
+          
+                  <div class="msg-text">
+                    You can change your name in JS section!
+                  </div>
+                </div>
+                
+              </div>
+            </main>
+            <form class="msger-inputarea">
+              <input type="text" class="msger-input" id="input" placeholder="Enter your message...">
+              <button type="submit" class="msger-send-btn" id="send">Send</button>
+            </form>
+          </section>
+    </header>
+</body>
+</html>
